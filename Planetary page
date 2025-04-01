@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="universo, planetas, espacio, sistema solar, astronomía" />
+    <meta name="description" content="Explora información fascinante sobre el universo, los planetas y el espacio." />
+    <meta name="author" content="Tu Nombre" />
+    <meta name="copyright" content="Copyright © 2025 Tu Nombre" />
+    <title>Explorando el Universo</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #121212;
+            color: white;
+            margin: 0;
+            padding: 0;
+        }
+        .header {
+            background: linear-gradient(90deg, #003366, #001f3f);
+            padding: 40px;
+            font-size: 2.5em;
+            font-weight: bold;
+            text-align: center;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.5);
+        }
+        .container {
+            width: 90%;
+            margin: 20px auto;
+        }
+        .box {
+            display: flex;
+            align-items: center;
+            background-color: #1b1b1b;
+            padding: 20px;
+            margin: 20px 0;
+            border-radius: 10px;
+            transition: transform 0.3s ease;
+            box-shadow: 0 4px 10px rgba(255, 255, 255, 0.1);
+        }
+        .box:hover {
+            transform: scale(1.02);
+        }
+        .box img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 10px;
+            margin-right: 20px;
+        }
+        .text {
+            width: calc(100% - 220px); /* Adjust width dynamically */
+        }
+        .text h2 {
+            color: #00aaff;
+        }
+        @media (max-width: 768px) {
+            .box {
+                flex-direction: column;
+                text-align: center;
+            }
+            .box img {
+                margin-right: 0;
+                margin-bottom: 10px;
+                width: 100%;
+            }
+            .text {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="header">Explorando el Universo</div>
+    <div class="container">
+        <div class="box">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/c/c3/Solar_sys8.jpg" alt="Sistema Solar">
+            <div class="text">
+                <h2>El Sistema Solar</h2>
+                <p>El sistema solar está compuesto por el Sol y todos los cuerpos celestes que orbitan a su alrededor, incluyendo planetas, asteroides y cometas.</p>
+            </div>
+        </div>
+        <div class="box">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/9/97/The_Earth_seen_from_Apollo_17.jpg" alt="Planeta Tierra">
+            <div class="text">
+                <h2>El Planeta Tierra</h2>
+                <p>La Tierra es el único planeta conocido que alberga vida. Tiene una atmósfera rica en oxígeno y agua en estado líquido.</p>
+            </div>
+        </div>
+        <div class="box">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/0/02/OSIRIS_Mars_true_color.jpg" alt="Marte">
+            <div class="text">
+                <h2>Marte: El Planeta Rojo</h2>
+                <p>Marte es conocido como el planeta rojo debido a la presencia de óxido de hierro en su superficie. Se cree que pudo haber tenido agua en el pasado.</p>
+            </div>
+        </div>
+        <div class="box">
+            <img src="https://th.bing.com/th/id/OIP.aBxMsTDueJ0OEYpqcoZb7wHaEK?rs=1&pid=ImgDetMain" alt="Mercurio">
+            <div class="text">
+                <h2>Mercurio</h2>
+                <p>Mercurio es el planeta más cercano al Sol y el más pequeño del sistema solar. Tiene temperaturas extremas debido a su falta de atmósfera significativa.</p>
+            </div>
+        </div>
+        <div class="box">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/e/e5/Venus-real_color.jpg" alt="Venus">
+            <div class="text">
+                <h2>Venus</h2>
+                <p>Venus es el planeta más caliente del sistema solar debido a su densa atmósfera de dióxido de carbono, que provoca un efecto invernadero extremo.</p>
+            </div>
+        </div>
+        <div class="box">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/e/e2/Jupiter.jpg" alt="Júpiter">
+            <div class="text">
+                <h2>Júpiter</h2>
+                <p>Júpiter es el planeta más grande del sistema solar y posee una enorme tormenta llamada la Gran Mancha Roja, que ha existido por siglos.</p>
+            </div>
+        </div>
+        <div class="box">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/3/3d/Uranus2.jpg" alt="Urano">
+            <div class="text">
+                <h2>Urano</h2>
+                <p>Urano es un planeta gigante de hielo que rota de lado, lo que lo hace único en el sistema solar.</p>
+            </div>
+        </div>
+        <div class="box">
+            <img src="https://upload.wikimedia.org/wikipedia/commons/5/56/Neptune_Full.jpg" alt="Neptuno">
+            <div class="text">
+                <h2>Neptuno</h2>
+                <p>Neptuno es el planeta más alejado del Sol y tiene los vientos más rápidos del sistema solar, alcanzando hasta 2,100 km/h.</p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
